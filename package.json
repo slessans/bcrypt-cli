@@ -1,0 +1,17 @@
+{
+  "name": "bcrypt-cli",
+  "version": "1.0.0",
+  "description": "Quick CLI tool for bcrypting stuff at the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["bcrypt", "cli", "command-line", "util", "tool"],
+  "author": "Scott Lessans",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "0.8.7",
+    "yargs": "4.7.1"
+  }
+}
